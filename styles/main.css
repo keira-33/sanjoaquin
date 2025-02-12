@@ -33,6 +33,7 @@ header {
 
 main {
     padding: 1em;
+    display: flex;
 }
 
 main h1 {
@@ -65,6 +66,8 @@ main p {
 main blockquote {
     padding: 0 2em;
     font-style: italic;
+    /* I added this padding bottom */
+    padding-bottom: 10px;
 }
 
 main ul {
@@ -105,4 +108,12 @@ footer p {
 
 .shadow {
     text-shadow: 1.5px 1.5px 3px #800000;
+}
+
+main section {
+    width: 75%;
+}
+
+main aside {
+    width: 25%;
 }
