@@ -183,7 +183,7 @@ main aside {
 
 @media only screen and (max-width: 479px) {
     header h2, header h3 {
-        font-size: 75%;
+        font-size: 95%;
     }
     section p {
         font-size: 50%;
